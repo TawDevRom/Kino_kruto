@@ -4,8 +4,8 @@ services:
     image: postgres:16
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 135720hk
-      POSTGRES_DB: onlinekino
+      POSTGRES_PASSWORD: Tawern228
+      POSTGRES_DB: online_kino
     ports:
       - "5433:5432"
     volumes:
@@ -23,8 +23,8 @@ services:
       DB_HOST: postgres
       DB_PORT: 5432
       DB_USER: postgres
-      DB_PASSWORD: postgres
-      DB_NAME: onlinekino
+      DB_PASSWORD: Tawern228
+      DB_NAME: online_kino
     depends_on:
       postgres:
         condition: service_healthy
